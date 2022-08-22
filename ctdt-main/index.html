@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khoa Công nghệ Thông tin - Trường Đại học Mở Tp.HCM</title>
+    <link
+      rel="shortcut icon"
+      href="http://it.ou.edu.vn/asset/img/ico/favicon.ico"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/java.js"></script>
+  </head>
+  <body>
+    <div class="menu-scroll">
+      <ul class="menu">
+        <li>
+          <a href="https://sonpnts.github.io/home/" class="animate__animated">
+            <i class="fa-solid fa-house icon-home"></i>Trang chủ</a
+          >
+        </li>
+        <li>
+          <a href="#" class="animate__animated">
+            Giới thiệu<i class="fa-solid fa-chevron-down icon-header"></i
+          ></a>
+          <ul class="sub-nav">
+            <li>
+              <a href="#" class="animate__animated">Giới thiệu khoa</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Cơ cấu tổ chức</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Danh sách giảng viên</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Bảng vàng thành tích</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Thông tin cựu sinh viên</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="animate__animated"
+            >Đào tạo <i class="fa-solid fa-chevron-down icon-header"></i>
+          </a>
+          <ul class="sub-nav">
+            <li><a href="#" class="animate__animated">Chuẩn đầu ra</a></li>
+            <li>
+              <a href="#" class="animate__animated">Chương trình đào tạo</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Đề cương môn học</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="animate__animated"
+            >Tuyển sinh
+            <i class="fa-solid fa-chevron-down icon-header-header"></i
+          ></a>
+          <ul class="sub-nav">
+            <li>
+              <a
+                href="https://sonpnts.github.io/tuyensinh/"
+                target="_blank"
+                class="animate__animated"
+                >Tuyển sinh Đại học 2022</a
+              >
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Tuyển sinh Cao học 2022</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="animate__animated"
+            >Tin Tức - Thông Báo
+            <i class="fa-solid fa-chevron-down icon-header"></i
+          ></a>
+          <ul class="sub-nav">
+            <li>
+              <a href="#" class="animate__animated">Thông báo đào tạo</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Thông báo sinh viên</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Tin tức - sự kiện</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="animate__animated">Đoàn hội</a>
+        </li>
+        <li>
+          <a href="#" class="animate__animated">Liên hệ</a>
+        </li>
+        <li><a href="#" class="animate__animated">Biểu mẫu</a></li>
+      </ul>
+    </div>
+    <div id="header">
+      <div class="header-menu">
+        <div class="flex">
+          <img src="./assets/img/logo-cntt.png" alt="CNTT" class="logo" />
+          <ul class="menu">
+            <li>
+              <a
+                href="https://sonpnts.github.io/home/"
+                class="animate__animated"
+              >
+                <i class="fa-solid fa-house icon-home"></i>Trang chủ</a
+              >
+            </li>
+            <li>
+              <a href="#" class="animate__animated">
+                Giới thiệu<i class="fa-solid fa-chevron-down icon-header"></i
+              ></a>
+              <ul class="sub-nav">
+                <li>
+                  <a href="#" class="animate__animated">Giới thiệu khoa</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Cơ cấu tổ chức</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Danh sách giảng viên</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Bảng vàng thành tích</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated"
+                    >Thông tin cựu sinh viên</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="animate__animated"
+                >Đào tạo <i class="fa-solid fa-chevron-down icon-header"></i>
+              </a>
+              <ul class="sub-nav">
+                <li><a href="#" class="animate__animated">Chuẩn đầu ra</a></li>
+                <li>
+                  <a href="#" class="animate__animated">Chương trình đào tạo</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Đề cương môn học</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="animate__animated"
+                >Tuyển sinh
+                <i class="fa-solid fa-chevron-down icon-header-header"></i
+              ></a>
+              <ul class="sub-nav">
+                <li>
+                  <a
+                    href="https://sonpnts.github.io/tuyensinh/"
+                    target="_blank"
+                    class="animate__animated"
+                    >Tuyển sinh Đại học 2022</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="animate__animated"
+                    >Tuyển sinh Cao học 2022</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="animate__animated"
+                >Tin Tức - Thông Báo
+                <i class="fa-solid fa-chevron-down icon-header"></i
+              ></a>
+              <ul class="sub-nav">
+                <li>
+                  <a href="#" class="animate__animated">Thông báo đào tạo</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Thông báo sinh viên</a>
+                </li>
+                <li>
+                  <a href="#" class="animate__animated">Tin tức - sự kiện</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Đoàn hội</a>
+            </li>
+            <li>
+              <a href="#" class="animate__animated">Liên hệ</a>
+            </li>
+            <li><a href="#" class="animate__animated">Biểu mẫu</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main_contents">
+      <!--CHƯƠNG TRÌNH ĐÀO TẠO-->
+      <div class="title-content">
+        <p>CHƯƠNG TRÌNH ĐÀO TẠO</p>
+      </div>
+      <ol class="heading-content">
+        <li class="bold">
+          <span>Thông tin tổng quát</span>
+        </li>
+        <ul class="maj flex">
+          <li><input type="button" value=" Khoa Học Máy Tính" rel="1"></input></li>
+          <li><input type="button" value=" Công nghệ thông tin" rel="2"></input></li>
+          <li><input type="button" value=" Hệ thống thông tin quản lý" rel="3"></input></li>
+          <li><input type="button" value=" Ngành Khoa học máy tính (CLC)" rel="4"></input></li>
+        </ul>
+        <div class="item">
+          <table class="plan open">
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2021</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2021</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2021</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2021</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2019</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2019</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2019</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2019</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2015</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2015</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2015</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2015</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2014</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2014</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2014</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2014</a></td>
+            </tr>
+          </table>
+          <table class="plan"> 
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2021</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2021</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2021</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2021</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2019</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2019</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2019</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2019</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2015</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2015</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2015</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2015</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2014</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2014</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2014</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2014</a></td>
+            </tr>
+          </table>
+          <table class="plan">
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2021</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2021</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2021</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2021</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2019</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2019</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2019</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2019</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2015</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2015</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2015</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2015</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2014</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2014</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2014</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2014</a></td>
+            </tr>
+          </table>
+          <table class="plan">
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2021</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2021</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2021</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2021</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2019</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2019</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2019</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2019</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2015</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2015</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2015</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2015</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Chương trình đào tạo Khóa 2014</a></td>
+              <td><a href="#">Đề cương môn học Khóa 2014</a></td>
+              <td><a href="#">Chuẩn đầu ra khóa 2014</a></td>
+              <td><a href="#">Hướng dẫn thực hiện Khóa 2014</a></td>
+            </tr>
+          </table>
+        </div>
+        <li class="bold">
+          <span>Mục tiêu đào tạo</span>
+        </li>
+        <div>
+          <p>
+            Chương trình đào tạo cử nhân có phẩm chất đạo đức, có kỷ luật và có
+            trách nhiệm trong công việc; có kiến thức và năng lực chuyên môn
+            vững vàng, kỹ năng thực hành thành thạo, năng lực sáng tạo cao; có
+            khả năng áp dụng các kiến thức chuyên môn để phát triển nghề nghiệp
+            và bản thân trong bối cảnh hội nhập và Phát triển đất nước.
+          </p>
+        </div>
+        <li>
+          <span class="bold">Vị trí việc làm sau khi tốt nghiệp</span>
+          <div>
+            <div class="small-subtitle">
+              <p>- Ngành Khoa học máy tính:</p>
+              <div>
+                <ul class="list-content">
+                  <li>
+                    Lập trình viên phát triển phần mềm, ứng dụng trong lĩnh vực
+                    được đào tạo (Programmer/Software Developer).
+                  </li>
+                  <li>
+                    Chuyên viên quản trị và vận hành các hệ thống thông tin, hệ
+                    thống Cơ sở dữ liệu, hệ thống Web; Chuyên viên phân tích -
+                    khai phá dữ liệu.
+                  </li>
+                  <li>
+                    Chuyên viên thiết kế, triển khai, quản trị hệ thống mạng;
+                    Chuyên viên an toàn và bảo mật thông tin.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="small-subtitle">
+              <p>- Ngành Hệ thống thông tin và quản lý:</p>
+              <div>
+                <ul class="list-content">
+                  <li>
+                    Chuyên viên công nghệ thông tin giải quyết các bài toán kinh
+                    tế và quản trị như marketing, nhân sự, kinh doanh, hoạch
+                    định nguồn lực doanh nghiệp ERP.
+                  </li>
+                  <li>
+                    Chuyên viên quản trị và vận hành các hệ thống thông tin,
+                    quản trị hệ cơ sở dữ liệu (DBA), quản trị hệ thống thương
+                    mại điện tử, lập trình viên, kiểm thử viên phần mềm.
+                  </li>
+                  <li>
+                    Chuyên viên huấn luyện và đào tạo, nghiên cứu viên trong
+                    lĩnh vực Hệ thống thông tin quản lý.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="small-subtitle">
+              <p>- Ngành Công nghệ thông tin:</p>
+              <div>
+                <ul class="list-content">
+                  <li>
+                    Lập trình viên phát triển phần mềm, ứng dụng trong lĩnh vực
+                    được đào tạo (Programmer/Software Developer).
+                  </li>
+                  <li>
+                    Chuyên viên quản trị và vận hành các hệ thống thông tin, hệ
+                    thống Cơ sở dữ liệu, hệ thống Web; Chuyên viên phân tích -
+                    khai phá dữ liệu.
+                  </li>
+                  <li>
+                    Chuyên viên thiết kế, triển khai, quản trị hệ thống mạng;
+                    Chuyên viên an toàn và bảo mật thông tin.
+                  </li>
+                  <li>
+                    Chuyên viên huấn luyện và đào tạo, nghiên cứu viên trong
+                    lĩnh vực công thông tin.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="small-subtitle">
+              <p>- Ngành Khoa học máy tính (Chất lượng cao):</p>
+              <div>
+                <ul class="list-content">
+                  <li>
+                    Lập trình viên phát triển phần mềm, ứng dụng trong lĩnh vực
+                    được đào tạo (Programmer/Software Developer).
+                  </li>
+                  <li>
+                    Chuyên viên quản trị và vận hành các hệ thống thông tin, hệ
+                    thống Cơ sở dữ liệu, hệ thống Web; Chuyên viên phân tích -
+                    khai phá dữ liệu.
+                  </li>
+                  <li>
+                    Chuyên viên thiết kế, triển khai, quản trị hệ thống mạng;
+                    Chuyên viên an toàn và bảo mật thông tin.
+                  </li>
+                  <li>
+                    Chuyên viên huấn luyện và đào tạo, nghiên cứu viên trong
+                    lĩnh vực khoa học máy tính / công thông tin.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="backtop flex">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="footer">
+      <div class="part-footer">
+        <p class="logo-cntt">
+          <img
+            src="./assets/img/logo-cntt.png"
+            alt="Khoa Công nghệ thông tin"
+          />
+        </p>
+        <div class="footer-icon">
+          <a href="https://www.facebook.com/tinhocmo" target="_blank">
+            <i class="fa-brands fa-square-facebook icon-footer"></i>
+          </a>
+          <a href="http://it.ou.edu.vn/" target="_blank">
+            <i class="fa-thin fa-w icon-footer"></i>
+          </a>
+        </div>
+
+        <div class="footer-contact">
+          <div class="head">THÔNG TIN LIÊN HỆ</div>
+          <div class="border-bottom"></div>
+          <div class="detail">
+            <p class="address">
+              Phòng 604 (Lầu 6), số 35 - 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1,
+              Thành phố Hồ Chí Minh
+            </p>
+            <p class="sdt">Điện thoại: (84-028) 3838.6603</p>
+            <p class="mail">Email: fcs@ou.edu.vn</p>
+          </div>
+        </div>
+        <div class="border-bottom"></div>
+        <div class="footer-main">
+          <p>
+            Trụ sở chính: 97 Võ Văn Tần, Phường 6, Quận 3, Thành Phố Hồ Chí Minh
+          </p>
+          <p>Website: <a href="https://ou.edu.vn/">www.ou.edu.vn</a></p>
+        </div>
+      </div>
+
+      <div class="part-footer">
+        <div class="head">CƠ SỞ TRỰC THUỘC</div>
+        <div class="border-bottom"></div>
+        <div class="sub-heading">
+          <p>1: 97 Võ Văn Tần, P. Võ Thị Sáu, Q. 3, TP. Hồ Chí Minh.</p>
+          <p>2: 35-37 Hồ Hảo Hớn, P. Cô Giang, Q. 1 , TP. Hồ Chí Minh.</p>
+          <p>3: 371 Nguyễn Kiệm, P. 3, Q. Gò Vấp, TP. Hồ Chí Minh.</p>
+          <p>4: 02 Mai Thị Lựu, P. Đa Kao, Q. 1, TP. Hồ Chí Minh.</p>
+          <p>
+            5: 68 Lê Thị Trung, P. Phú Lợi, TP. Thủ Dầu Một, Tỉnh Bình Dương.
+          </p>
+          <p>6: Đường số 9, P. Long Bình Tân, TP. Biên Hòa, Tỉnh Đồng Nai.</p>
+          <p>
+            7: Số 04 đường Tân Định, P. Ninh Hiệp, Thị Xã Ninh Hòa, Tỉnh Khánh
+            Hòa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-license">
+      Copyright &copy; 2022 - OUHCMC. All Rights Reserved.
+    </div>
+  </body>
+</html>

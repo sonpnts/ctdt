@@ -40,6 +40,8 @@
 }
 #header {
   display: flex;
+  /* background: url(https://raw.githubusercontent.com/sonpnts/tuyensinh/f36960ed4b392662c9190330259a552f9271677b/assets/img/doanhoikhoa.jpg)
+    center/ cover no-repeat; */
 }
 .flex {
   display: flex;
@@ -131,143 +133,18 @@ ul.sub-nav li:hover a {
   font-weight: bold;
 }
 .main_contents {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
 }
-<<<<<<< HEAD
-.container {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-=======
-/* ------------------------------- */
-.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1100px;
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-}
 
-.container .card {
-  position: relative;
-  width: 320px;
-  height: 320px;
-  margin: 15px;
-  overflow: hidden;
-<<<<<<< HEAD
-  border-radius: 15px;
-=======
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-}
-
-.container .card .imgBx, .container .card .contentBx {
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.container .card .imgBx img {
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.container .card .contentBx::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #F9F9F9;
-  transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
-  transform-origin: left;
-<<<<<<< HEAD
-  transition-delay: 0.25s;
-=======
-  transition-delay: 0.5s;
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-}
-
-.container .card:hover .contentBx::before {
-  transform: scaleX(1);
-  transition: transform 0.5s ease-in-out;
-  transform-origin: left;
-<<<<<<< HEAD
-}
-.contentBx div.content {
-  position: relative;
-  padding: 12px 5px 23px 21px;
-  z-index: 1;
-  transition: 0.5s;
-  transform: translateX(-336px);
-  transition-delay: 0.25s;
-=======
-  transition-delay: 0s;
-}
-
-.container .card .contentBx {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container .card .contentBx .content {
-  position: relative;
-  padding: 30px;
-  z-index: 1;
-  transition: 0.5s;
-  transform: translateX(-300px);
-  transition-delay: 0s;
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-}
-
-.container .card:hover .contentBx .content {
-  transform: translateX(0px);
-<<<<<<< HEAD
-=======
-  transition-delay: 0.5s;
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-}
-
-.container .card .contentBx .content h3 {
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-<<<<<<< HEAD
-  color: #7ea2e3;
-  font-weight: bold;
-}
-=======
-}
-
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
-.container .card .contentBx .content ul li {
-  font-size: 15px;
-  line-height: 1.4em;
-  font-weight: 300; 
-}
-<<<<<<< HEAD
-=======
-/* --------------------------------------------- */
->>>>>>> 19f0cdcfe278c45b48e41c94f82ab9ef6abf921a
 div.title-content p {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
 }
+
 ol.heading-content > li {
-  margin-left: 19px;
-  margin-top: 5px;
+  margin-left: 20px;
 }
 
 ol.heading-content li::marker {
@@ -276,7 +153,9 @@ ol.heading-content li::marker {
 }
 ol.heading-content span {
   font-size: 20px;
+  margin: 10px 0 10px 0;
 }
+
 ul.maj {
   list-style-type: none;
   width: 100%;
@@ -292,15 +171,12 @@ ul.maj li input {
   text-align: center;
   color: #fff;
   padding: 5px;
-  background: linear-gradient(200deg, #5a67c9, #b3b3c3);
+  background: linear-gradient(180deg, #5a67c9, #b3b3c3);
   font-size: 17px;
-}
-ul.maj li:first-child input{
-  background:linear-gradient(180deg, #59273e, #c9dd94);
 }
 .item {
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 50px;
 }
 .plan:first-child:after {
   content: " ";
@@ -314,7 +190,7 @@ ul.maj li:first-child input{
 .plan:nth-child(2):after {
   content: " ";
   bottom: 100%;
-  left: 16%;
+  left: 18%;
   position: absolute;
   border-width: 11px;
   border-style: solid;
@@ -332,7 +208,7 @@ ul.maj li:first-child input{
 .plan:nth-child(4):after {
   content: " ";
   bottom: 100%;
-  left: 55%;
+  left: 57%;
   position: absolute;
   border-width: 11px;
   border-style: solid;
@@ -341,31 +217,27 @@ ul.maj li:first-child input{
 .open{
   display: block !important;
 }
-.slidestart{
+.slidetoleft{
   animation: in 1s;
-}
-.slideend{
-  animation: out 1s;
 }
 .plan {
   display: none;
+  border-collapse: collapse;
   width: 100%;
 }
-ul.plan-sub{
-  list-style-type: none;
-  display: flex;
-}
-ul.plan{
-  list-style-type: none;
-} 
 .plan a {
-  display: block;
   text-decoration: none;
-  margin: 0 5px 5px;
+  margin: 5px;
   padding: 10px;
-  background-color: #334f59a3;
+  background-color: #ccc;
   border-radius: 15px;
-  color: #fff;
+  color: #000;
+}
+.plan td {
+  border: 1px groove black;
+  padding: 1rem 0;
+  text-align: center;
+
 }
 div.small-subtitle p {
   font-style: italic;
@@ -401,7 +273,7 @@ ul.list-content li {
 }
 .footer .part-footer {
   width: calc(100% / 2);
-  padding: 5px 0px 3px 10px;
+  padding: 30px 0px 30px 30px;
 }
 .footer .head {
   font-size: 20px;
@@ -563,46 +435,4 @@ ul.list-content li {
     transform: translateX(0%);
   }
 }
-.animate__animated2 {
-  animation-fill-mode: both;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-.pulse {
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-}
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-  to {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-}
-@keyframes pulse {
-  0% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-  to {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-}
+
