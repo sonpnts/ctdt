@@ -4,7 +4,14 @@
   padding: 0;
   font-family: Myfont;
 }
-
+#bar{
+  font-size: 24px;
+  padding: 5px;
+  background-color: #ccc;
+  text-align: right;
+  cursor: pointer;
+  display: none;
+}
 .clear {
   clear: both;
 }
@@ -44,8 +51,30 @@
 .flex {
   display: flex;
 }
-.v-ali {
-  justify-content: center;
+.come-back {
+  min-width: 20%;
+}
+.come-back p:last-child a{
+  color: #3d4353;
+}
+.come-back a{
+  position: relative;
+  padding: 0 3px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+}
+.come-back a.home:hover{
+  color: #002db3;
+  border-bottom: 2px solid #ccc;
+
+}
+
+.fa-house{
+  font-size: 17px;
+  margin: 0 3px;
 }
 
 .header-menu {

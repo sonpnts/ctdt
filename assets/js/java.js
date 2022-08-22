@@ -35,4 +35,8 @@ $(document).ready(function(){
             $(".menu-scroll").fadeOut();
         }
     })
+    $("#bar").click(function(){
+        $("ul.menu").slideToggle();
+        $(".menu-scroll").hide();
+    })
 });
