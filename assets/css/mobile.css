@@ -41,6 +41,15 @@ ul.plan > li:nth-child(4) a{
 .plan::after{
     display: none;
 }
+.container .card {
+    width: 448px;
+    height: 341px;
+    margin: 15px 0;
+}
+.contentBx div.content {
+    padding: 58px;
+    transform: translateX(-440px);
+}
 .container{
     flex-direction: column;
 }
